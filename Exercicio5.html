@@ -1,0 +1,44 @@
+<!--Este é um trabalho feito por Gabriel dos Santos, e Samuel Azarias 2 Periodo-->
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <style>
+    
+        form{
+            border: 1px solid black;
+            width: 500px;
+            height: 170px;
+            border-radius: 10px;
+        }
+        img{
+            position: absolute;
+            top: 12px;
+            left: 300px;
+        }
+    </style>
+    </head>
+    <body>
+        <form onsubmit="alert('Logado!');return false">
+            <br>
+        <label>TextBox1</label>
+        <input type="text" name="TextBox1"><br>    
+        <label>TextBox2 Pass</label>
+        <input type="password" name="TextBox1"><br>    
+        <select>
+            <option value="Selects">Selects</option>
+            <option value="Select1">Select 1</option>
+            <option value="Select2">Select 2</option>
+            <option value="Select3">Select 3</option>
+        </select>
+            <input type="checkbox" name="Senha" value="Senha"> Lembrar de mim na proxima<br>
+            <p>Ja entrar online</p>
+            <input type="radio" name="Selection" value="Sim">Sim
+             <input type="radio" name="Selection" value="Nao">Nao
+            
+              <img src="Cadeado.jpg" alt="Sleep" id="LilRaff" height="100" width="200"  >  
+    <input  type="submit" value="Login">
+             <input  type="reset" value="Reset">   
+        </form>
+    </body>
+</html>
